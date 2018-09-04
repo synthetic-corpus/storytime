@@ -12,13 +12,32 @@
           "/*.js"
         ]
       }
-    }, {
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
       "resources": {
         "files": [
           "/assets/**"
+        ]
+      }
+    },
+    {
+      "name": "illustrations",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "resources": {
+        "urls": [
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/01.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/02.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/03.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/04.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/05.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/06.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/07.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/08.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/09.png"
         ]
       }
     }
