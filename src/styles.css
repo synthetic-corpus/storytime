@@ -5,12 +5,14 @@ img, p {
   height: auto;
 }
 
+
 h1, h2, h3 {
   font-family: 'Fontdiner Swanky', cursive;
 }
 
 p {
   font-family: 'PT Sans', sans-serif;
+  padding-bottom: 5px;
 }
 div {
   max-width: 100%;
@@ -34,25 +36,45 @@ div {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  /* Styles */
+  #storybox {
+    max-width: 100%;
+  }
+  img {
+    padding: 15px;
+    float: left;
+    max-width: 30%;
+  }
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  /* Styles */
+  #storybox {
+    max-width: 100%;
+  }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  /* Styles */
+  #storybox {
+    max-width: 100%;
+  }
+  img {
+    padding: 15px;
+    float: left;
+    max-width: 30%;
+  }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
-  /* Styles */
+  #storybox {
+    max-width: 500px;
+  }
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
-  /* Styles */
+  #storybox {
+    max-width: 500px;
+  }
 }
