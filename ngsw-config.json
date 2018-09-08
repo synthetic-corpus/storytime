@@ -29,7 +29,7 @@
       "updateMode": "prefetch",
       "resources": {
         "urls": [
-          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/01.png",
+          "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/01.png?alt=media&token=d552faa3-bec9-4a28-b576-782386ecdc06",
           "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/02.png",
           "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/03.png",
           "https://firebasestorage.googleapis.com/v0/b/dubin-backend.appspot.com/o/04.png",
