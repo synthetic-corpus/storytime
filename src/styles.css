@@ -13,11 +13,12 @@ h1, h2, h3 {
 p {
   font-family: 'PT Sans', sans-serif;
   padding-bottom: 5px;
+  text-indent: 20px;
 }
 div {
   max-width: 100%;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
