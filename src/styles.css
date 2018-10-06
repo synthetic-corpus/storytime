@@ -37,7 +37,7 @@ div {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  #storybox {
+  .storybox {
     max-width: 100%;
   }
   img {
@@ -49,14 +49,14 @@ div {
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  #storybox {
+  .storybox {
     max-width: 100%;
   }
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  #storybox {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1366px) and (orientation : portrait) {
+  .storybox {
     max-width: 100%;
   }
   img {
@@ -67,15 +67,17 @@ div {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-  #storybox {
+@media only screen and (min-width : 1366px) and (max-width: 1824px) {
+  .storybox {
     max-width: 500px;
+    align-self: center;
   }
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
-  #storybox {
+  .storybox {
     max-width: 500px;
+    align-self: center;
   }
 }
